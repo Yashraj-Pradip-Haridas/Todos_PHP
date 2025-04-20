@@ -51,11 +51,11 @@ _Replace the placeholder paths with actual image paths from your project._
 
 ### 🏠 Dashboard
 
-![Signup Page](images\Dashboard.png)
+![Signup Page](images/Singup.png)
 
 ### ✅ Signup Page
 
-![Dashboard](images\Singup.png)
+![Dashboard](images/Dashboard.png)
 
 ---
 
