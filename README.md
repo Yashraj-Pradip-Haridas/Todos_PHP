@@ -49,13 +49,13 @@ A simple To-Do list application built using PHP and MySQL. This project allows u
 
 _Replace the placeholder paths with actual image paths from your project._
 
-### 🏠 Home Page
+### 🏠 Dashboard
 
 ![Signup Page](images\Dashboard.png)
 
-### ✅ Completed Tasks
+### ✅ Signup Page
 
-![Dashboard](images\Dashboard.png)
+![Dashboard](images\Singup.png)
 
 ---
 
