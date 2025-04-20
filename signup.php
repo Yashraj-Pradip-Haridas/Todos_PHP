@@ -18,20 +18,53 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 ?>
 
-<h2>Signup</h2>
-<form method="post">
-    Email: <input
-        type="email"
-        name="email"
-        required
-    ><br>
-    Password: <input
-        type="password"
-        name="password"
-        required
-    ><br>
-    <input
-        type="submit"
-        value="Signup"
+<!-- Inside index.php and signup.php -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login / Signup</title>
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+        rel="stylesheet"
     >
-</form>
+</head>
+
+<body class="container py-5">
+
+    <h2 class="mb-4">Signup</h2>
+    <form
+        method="post"
+        class="card p-4"
+    >
+        <label>Email:</label>
+        <input
+            type="email"
+            name="email"
+            class="form-control mb-3"
+            required
+        >
+
+        <label>Password:</label>
+        <input
+            type="password"
+            name="password"
+            class="form-control mb-3"
+            required
+        >
+
+        <input
+            type="submit"
+            value="Login"
+            class="btn btn-primary"
+        >
+    </form>
+
+    <a
+        href="signup.php"
+        class="d-block mt-3"
+    >Don't have an account? Signup</a>
+
+</body>
+
+</html>
