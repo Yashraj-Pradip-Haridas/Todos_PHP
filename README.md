@@ -1,4 +1,4 @@
-# 📋 Todos_PHP
+# 📋 Todoist
 
 A simple To-Do list application built using PHP and MySQL. This project allows users to add, view, and manage their daily tasks efficiently.
 
