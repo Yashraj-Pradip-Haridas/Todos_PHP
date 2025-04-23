@@ -7,6 +7,7 @@ A simple To-Do list application built using PHP and MySQL. This project allows u
 ## 🚀 Features
 
 - Add new tasks
+- Update the tasks
 - Delete tasks
 - Persistent storage using MySQL
 - Responsive design for various devices
